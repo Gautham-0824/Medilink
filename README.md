@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+# 🩺 All-in-One Medical Healthcare App
 
-## Project info
+![Healthcare Banner](https://user-images.githubusercontent.com/yourusername/yourimage.png)
 
-**URL**: https://lovable.dev/projects/c14bd4c4-cd52-4280-8da5-ce474fde6e60
+## 📖 Overview
 
-## How can I edit this code?
+The **All-in-One Medical Healthcare App** is a comprehensive digital health management system designed to simplify and organize users’ medical activities.  
+It allows users to **locate nearby clinics**, **store personal and family medical history**, **set medication reminders**, and **track health records** — all in one place.  
 
-There are several ways of editing your application.
+Built using **HTML**, **CSS**, **JavaScript**, and **React**, the application provides a clean and user-friendly interface.  
+The backend is powered by **Firebase**, which manages user authentication, real-time database operations, and secure data storage — ensuring privacy and accessibility across devices.  
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c14bd4c4-cd52-4280-8da5-ce474fde6e60) and start prompting.
+## 🚀 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+✅ Locate nearby hospitals and clinics based on user location  
+✅ Add and manage personal and family medical records  
+✅ Receive reminders for upcoming medication schedules  
+✅ Securely store reports and prescriptions in the cloud  
+✅ Responsive and interactive design using React.js  
+✅ Firebase-based login and real-time database synchronization  
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Category | Technologies Used |
+|-----------|-------------------|
+| **Frontend** | HTML5, CSS3, JavaScript (ES6+), React.js |
+| **Backend / Database** | Firebase (Authentication, Firestore, Storage) |
+| **Tools & Libraries** | Node.js, React Router, Material UI |
+| **Version Control** | Git, GitHub |
+| **Hosting** | Firebase Hosting |
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📱 Screens / Modules
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- 🧭 **Home Page:** Overview of the app with navigation links  
+- 🏥 **Nearby Clinics:** Displays nearby hospitals/clinics using location APIs  
+- 💊 **Medication Reminder:** Lets users set and manage medicine reminders  
+- 🩸 **Medical History:** View, add, and manage medical and family history  
+- 👤 **User Authentication:** Secure login/signup via Firebase  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## ⚙️ Installation & Setup
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c14bd4c4-cd52-4280-8da5-ce474fde6e60) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/medical-healthcare-app.git
+   cd medical-healthcare-app
